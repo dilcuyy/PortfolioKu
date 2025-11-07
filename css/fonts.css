@@ -1,0 +1,25 @@
+/**
+ * css/fonts.css
+ * Mengimpor font kustom untuk stabilitas visual dan gaya unik.
+ */
+
+/* 1. FONT DISPLAY (Neo-Brutalisme/Kuat) */
+/* Contoh impor font kustom yang dimuat lokal: */
+@font-face {
+    font-family: 'Chakra Petch';
+    src: url('../assets/fonts/ChakraPetch-Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap; /* Penting untuk performance & UX */
+}
+
+/* 2. FONT BODY (Formal & Modern) */
+/* Contoh impor dari Google Fonts (cepat dan mudah): */
+/* Link ini bisa diletakkan langsung di index.html atau diimpor di sini */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Penggunaan di Style.css: */
+/* :root {
+    --font-display: 'Chakra Petch', sans-serif;
+    --font-body: 'Inter', sans-serif;
+} */
